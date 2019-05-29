@@ -1,0 +1,714 @@
+@font-face {
+    font-family: FloodFont;
+    src: url(../Font-Family/Flood.ttf);
+    font-weight: bold;
+  }
+
+/* body{
+    height: 7224px;
+    background-color: #354463;
+} */
+.head-container{
+    background-color:white;
+    width: 100%;
+    height: 200px;
+    font-family:Helvetica;
+    text-align: center;
+}
+
+.main-heading{
+    /* background-color: #C1F7D5; */
+    text-decoration: none;
+    /* border-radius: 100% 100% 100% 100%; */
+    /* height: 40px; */
+    /* margin-bottom: 32px; */
+}
+
+.donate-now{
+    /* height: 18px;
+    margin-left: 18px;
+    color: #354463; */
+    /* background-color: #354463; */
+  background-color: #C1F7D5;
+  border: none;
+  color: #354463;
+  /* padding: 20px; */
+  width: 70%;
+  height: 40px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 29px 10px;
+  border-radius: 50px;
+  padding: 10px 24px;
+}
+
+.heading-text{
+    display: flex;
+    justify-content: space-around;
+}
+
+.heading-text h1{
+    height: 40px;
+    color: #354463;
+}
+
+.heading-text p a{
+    text-decoration: none;
+    color: #354463;
+}
+
+
+.first-image-section{
+    /* width: 1; */
+       height: 592px;
+       width: 100%;
+       background-color: white;
+      
+}
+
+.first-image-section h1{
+    position: relative;
+    color: white;
+    
+    /* font-family: FloodFont;
+    line-height: 44px; */
+    /* height: 136px;
+    width: 181px; */
+    /* font-size: 136px; */
+}
+
+.climate-change{
+    height: 136px;
+    margin-left: 10%;
+    /* margin-top: 18%; */
+    padding-top: 3%;
+    margin-top: 8%;
+}
+
+.climate-change h1{
+    font-family: FloodFont;
+    line-height: 45px;
+    font-size: 40px; 
+    height: 136px;
+    /* width: 181px; */
+    /* margin-left: 10%;
+    margin-top: 10%; */
+}
+
+.first-image{
+    /* height: 592px; */
+    /* height: 592px; */
+    position: absolute;
+    object-fit: cover;
+    object-position:70%;
+    image-orientation: from-image;
+     /* width: 300px;
+     height: 337px; */
+     width: 100%;
+    /* width: 100%; */
+    /* height: 592px; */
+    height:592px;
+}
+
+.big-issue-box{
+    position: relative;
+    height: 240px;
+    width: 80%;
+    background-color: white;
+    bottom: -25%;
+    left: 13%;
+    /* padding-bottom: 48px; */
+}
+
+.the-issue-box{
+    position: relative;
+    height: 40px;
+    width: 48%;
+    background-color: #354463;
+    color: white;
+    text-align: center;
+    margin-left: 23%;
+    top: -9%;
+
+}
+
+.take-action-box-heading{
+    position: relative;
+    height: 40px;
+    width: 48%;
+    background-color: #354463;
+    color: white;
+    text-align: center;
+    left: 25%;
+    top: -13%;
+    /* background-color: #354463;
+    height: 40px; */
+}
+
+.take-action-main-section{
+    height: 240px;
+    width: 100%;
+}
+.take-action-box{
+    position: relative;
+    bottom: 18%;
+    left: 4%;
+    display: inline-grid;
+    /* margin: 2%; */
+    grid-column-gap: 10%;
+    /* grid-row-gap: 0%; */
+    /* display: flex;
+    flex-wrap: wrap;
+    justify-content:space-between; */
+    grid-template-columns: auto auto;
+    /* height: 240px;
+    width: 100%; */
+}
+
+.the-issue-heading{
+    position: relative;
+    height: 78px;
+    width: 80%;
+    font-family: helvetica;
+    font-weight: bold;
+    color: #354463;
+    
+    left: 10%;
+    bottom: 5%;
+    font-size: 120%;
+    text-align: center;
+}
+
+.the-issue-underline-section{
+    position: relative;
+    height: 42px;
+    width: 67%;
+    text-align: center;
+    font-family: helvetica;
+    font-weight:lighter;
+    color: #354463;
+    font-size: 90%;
+    left: 14%;
+    top: 8%;
+    /* bottom: 8%; */
+}
+.learn-box{
+    height: 80px;
+    margin-top: 15%;
+    margin-left: 10%;
+    font-family: helvetica;
+    color: #354463;
+}
+
+.share-box{
+    height: 80px;
+    /* margin-top: 15%; */
+    margin-left: 10%;
+    font-family: helvetica;
+    color: #354463;
+}
+
+.volunteer-box{
+    height: 80px;
+    margin-top: 15%;
+    margin-right: 10%;
+    font-family: helvetica;
+    color: #354463;
+}
+.donate-box{
+    height: 80px;
+    /* margin-top: 15%; */
+    margin-right: 15%;
+    font-family: helvetica;
+    color: #354463;
+}
+
+.after-take-action-to-before-social-handle{
+    width: 100%;
+    height: 1740px;
+    background-color: #354463;
+}
+
+.what-we-do{
+    position: relative;
+    height: 40px;
+    width: 40%;
+    background-color: white;
+    text-align: center;
+    top:43px;
+    left: 28%;
+    font-family: helvetica;
+    font-weight: lighter;
+    font-size: 85%;
+    color: #354463;
+}
+
+.what-we-do-discription{
+    position: relative;
+    width: 80%;
+    height: 134px;
+    text-align: center;
+    font-size: 125%;
+    color: white;
+    font-family: helvetica;
+    font-weight: bold;
+    top: 40px;
+    left: 10%;
+}
+
+.tree-planting-initiatives{
+    position: relative;
+    height: 415px;
+    width: 80%;
+    background-color: white;
+    left: 10%;
+    top: 120px;
+}
+
+.tree-planting-initiatives-image{
+    position: relative;
+    height: 176px;
+    width: 62%;
+    background-color: red;
+    top: -33px;
+    left: 21%;
+}
+
+.education-and-training{
+    position: relative;
+    height: 415px;
+    width: 80%;
+    background-color: white;
+    left: 10%;
+    top: 190px;
+}
+.education-and-training-image{
+    position: relative;
+    height: 176px;
+    width: 62%;
+    background-color: red;
+    top: -33px;
+    left: 21%;
+}
+
+.advocacy-and-compaigning{
+    position: relative;
+    height: 415px;
+    width: 80%;
+    background-color: white;
+    left: 10%;
+    top: 260px;
+}
+
+.advocacy-and-compaigning-image{
+    position: relative;
+    height: 176px;
+    width: 62%;
+    background-color: red;
+    top: -33px;
+    left: 21%;
+}
+
+.did-you-know-main-section{
+    position: relative;
+    height: 1025px;
+    width: 100%;
+    /* background-image: url(../images/home/did-you-know-background-mobile.png); */
+    /* position: absolute;
+    object-fit: cover;
+    object-position:70%;
+    image-orientation: from-image; */
+    background-color: red;
+
+}
+
+.did-you-know-flood-text{
+    position: relative;
+    top: 64px;
+    font-family: FloodFont;
+    line-height: 50px;
+    font-size: 25px; 
+    height: 192px;
+    width: 80%;
+    left: 10%;
+}
+
+.take-action-today-button{
+    position: relative;
+    width: 40%;
+    height: 40px;
+    top: 100px;
+    left: 10%;
+    /* top: 10px; */
+}
+.take-action{
+    /* height: 18px;
+    margin-left: 18px;
+    color: #354463; */
+    /* background-color: #354463; */
+   position: relative;
+    background-color: #C1F7D5;
+    border: none;
+    color: #354463;
+    /* padding: 20px; */
+    /* /* width: 40%; */
+   
+    height: 40px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    /* margin: 29px 10px; */
+    border-radius: 50px;
+    /* padding: 10px 24px; */
+}
+
+.social-media-box-one{
+    position: relative;
+    height: 136px;
+    width: 70%;
+    top: 160px;
+    left: 15%;
+    background-color: white;
+}
+
+.did-you-know-black-box p{
+    position: relative;
+    height: 40px;
+    width: 48%;
+    background-color: #354463;
+    color: white;
+    text-align: center;
+    /* margin-left: 25%; */
+    left: 25%;
+    top: -13%;
+}
+
+.social-media-box-two{
+    position: relative;
+    height: 136px;
+    width: 70%;
+    top: 176px;
+    left: 15%;
+    background-color: white;
+}
+
+.social-media-box-three{
+    position: relative;
+    height: 136px;
+    width: 70%;
+    top: 192px;
+    left: 15%;
+    background-color: white;
+    
+}
+
+.social-media-box-four{
+    position: relative;
+    height: 136px;
+    width: 70%;
+    top: 210px;
+    left: 15%;
+    background-color: white;
+}
+
+.stories-main-section{
+    position: relative;
+    height: 840px;
+    width: 100%;
+    background-color: green;
+}
+
+.story-one{
+    position: relative;
+    height: 312px;
+    width: 80%;
+    background-color: white;
+    top: 56px;
+    left: 10%;
+}
+
+.story-one-box p{
+    position: relative;
+    height: 40px;
+    width: 48%;
+    background-color: #354463;
+    color: white;
+    text-align: center;
+    /* margin-left: 25%; */
+    left: 25%;
+    top: -20px;
+}
+
+.story-two{
+    position: relative;
+    height: 296px;
+    width: 80%;
+    background-color: white;
+    top: 88px;
+    left: 10%;
+}
+
+.story-three{
+    /* position: relative;
+    background-color: #C1F7D5;
+    border: none;
+    color: #354463; */
+    /* padding: 20px; */
+    /* /* width: 40%; */
+   /* height: 50px;
+   width: 70%; */
+    /* height: 40px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px; */
+    /* margin: 29px 10px; */
+    /* border-radius: 50px; */
+}
+
+.read-more-button{
+    position: relative;
+    background-color: #C1F7D5;
+    border: none;
+    color: #354463;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    height: 50px;
+   width: 40%;
+    /* margin: 29px 10px; */
+    border-radius: 50px;
+    top:120px;
+    left: 30%;
+}
+
+.besic-stuffs-and-news-quotes{
+    position: relative;
+    height: 1800px;
+    width: 100%;
+    /* top: -20px; */
+    background-color: #354463;
+}
+
+.float-quote{
+    /* height: 186px;
+    width: 80%;
+    position: relative;
+    font-family: FloodFont;
+    inline-t: 50px;
+    font-weight: bold; */
+    position: relative;
+    top: 70px;
+    color: white;
+    text-align: center;
+    font-family: FloodFont;
+    line-height: 50px;
+    font-size: 32px; 
+    height: 192px;
+    width: 80%;
+    left: 10%;
+}
+
+.white-event-main-box{
+    position: relative;
+    top: 142px;
+    height: 312px;
+    width: 80%;
+    background-color: aquamarine;
+    left: 10%;
+}
+
+.white-little-box{
+    position: relative;
+    height: 40px;
+    width: 48%;
+    background-color: white;
+    color: #354463;
+    text-align: center;
+    /* margin-left: 25%; */
+    left: 25%;
+    top: -20px;
+}
+
+.news-heading{
+    position: relative;
+    top: 167px;
+    text-align: center;
+    left: 10%;
+    font-family: helvetica;
+    font-weight: bold;
+    height: 66px;
+    width: 80%;
+    color: white;
+}
+
+.news-discription{
+    position: relative;
+    height: 128px;
+    width: 80%;
+    top: 187px;
+    left: 10%;
+    text-align: center;
+    font-family: helvetica;
+    font-weight: lighter;
+    color: white;
+}
+
+.news-read-more-button{
+    position: relative;
+    background-color: #C1F7D5;
+    border: none;
+    color: #354463;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    height: 50px;
+   width: 40%;
+    /* margin: 29px 10px; */
+    border-radius: 50px;
+    top:205px;
+    left: 30%;
+}
+
+.white-latest-news-box{
+    position: relative;
+    top: 305px;
+    height: 312px;
+    width: 80%;
+    background-color: aquamarine;
+    left: 10%;
+}
+.white-news-box{
+    position: relative;
+    height: 40px;
+    width: 48%;
+    background-color: white;
+    color: #354463;
+    text-align: center;
+    /* margin-left: 25%; */
+    left: 25%;
+    top: -20px;
+}
+
+.news-section-2{
+    position: relative;
+    top:155px;
+}
+
+.news-heading-2{
+    position: relative;
+    top: 167px;
+    text-align: center;
+    left: 10%;
+    font-family: helvetica;
+    font-weight: bold;
+    height: 66px;
+    width: 80%;
+    color: white;
+}
+
+.news-discription-2{
+    position: relative;
+    height: 128px;
+    width: 80%;
+    top: 187px;
+    left: 10%;
+    text-align: center;
+    font-family: helvetica;
+    font-weight: lighter;
+    color: white;
+}
+
+.news-read-more-button-2{
+    position: relative;
+    background-color: #C1F7D5;
+    border: none;
+    color: #354463;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    height: 50px;
+   width: 40%;
+    /* margin: 29px 10px; */
+    border-radius: 50px;
+    top:205px;
+    left: 30%;
+}
+
+.subscription-main-box{
+    position: relative;
+    height: 216px;
+    width: 100%;
+    background-color: #C1F7D5;
+
+}
+
+.subscribe-discription{
+    position: relative;
+    height: 75px;
+    width: 80%;
+    text-align: center;
+    font-family: Helvetica;
+    font-weight: bold;
+    color: #354463;
+    top: 36px;
+    left: 10%;
+    font-size: 20px;
+}
+
+.subscribe-button-class{
+
+}
+.subscribe-button{
+    position: relative;
+    background-color:  #354463;
+    border: none;
+    color: #C1F7D5;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    height: 40px;
+   width: 30%;
+    /* margin: 29px 10px; */
+    border-radius: 50px;
+    top:90px;
+    left: 65%;
+}
+
+.input-box{
+    position: relative;
+    background-color: white;
+    border: none;
+    color: #354463;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    height: 40px;
+    width: 55%;
+    /* margin: 29px 10px; */
+    border-radius: 50px;
+    top:50px;
+    left: 5%;
+}
+
+.footer-information{
+    height: 600px;
+    width: 100%;
+}
+
+
+
+/* -------------------  For Tab View   --------------------*/
+@media only screen and (min-width:450px) and (max-width:960px)
+{
+
+}
+
