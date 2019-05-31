@@ -9,6 +9,10 @@
     background-color: #354463;
 } */
 .head-container{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+
     background-color:white;
     width: 100%;
     height: 200px;
@@ -18,17 +22,22 @@
 
 .main-heading{
     /* background-color: #C1F7D5; */
-    text-decoration: none;
+    /* text-decoration: none; */
     /* border-radius: 100% 100% 100% 100%; */
     /* height: 40px; */
     /* margin-bottom: 32px; */
+    
+    width: 100%;
 }
+
+
 
 .donate-now{
     /* height: 18px;
     margin-left: 18px;
     color: #354463; */
     /* background-color: #354463; */
+    position: relative;
   background-color: #C1F7D5;
   border: none;
   color: #354463;
@@ -39,24 +48,47 @@
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
-  margin: 29px 10px;
+  /* margin: 29px 10px; */
   border-radius: 50px;
-  padding: 10px 24px;
+  /* padding: 10px 24px; */
 }
 
 .heading-text{
-    display: flex;
-    justify-content: space-around;
+    /* display: flex;
+    justify-content: space-around; */
+   
+    width: 50%;
+    position: relative;
+    /* top: 15%;
+    left: 5%; */
+    left: 5%;
+}
+
+.heading-paragraph{
+    position: relative;
+    
+    width:50%;
+    /* right: -25%; */
+    /* text-align: end; */
+    text-align: start;
+    /* left: 10%;
+   bottom: 15%; */
+   /* right: 0%; */
+   left: 6%;
 }
 
 .heading-text h1{
     height: 40px;
     color: #354463;
+    text-align: start;
 }
 
-.heading-text p a{
+.heading-paragraph p a{
+    /* text-align: start; */
+    
     text-decoration: none;
     color: #354463;
+
 }
 
 
@@ -148,21 +180,28 @@
 }
 
 .take-action-main-section{
-    height: 240px;
+    height: 328px;
     width: 100%;
+    background-color: #C1F7D5;
 }
 .take-action-box{
+    /* height: 210px; */
+    left:10%;
     position: relative;
-    bottom: 18%;
-    left: 4%;
-    display: inline-grid;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: start;
+    /* justify-content: center; */
+    /* bottom: 18%;
+    left: 4%; */
+    /* display: inline-grid; */
     /* margin: 2%; */
-    grid-column-gap: 10%;
+    /* grid-column-gap: 10%; */
     /* grid-row-gap: 0%; */
     /* display: flex;
     flex-wrap: wrap;
     justify-content:space-between; */
-    grid-template-columns: auto auto;
+    /* grid-template-columns: auto auto; */
     /* height: 240px;
     width: 100%; */
 }
@@ -195,35 +234,58 @@
     /* bottom: 8%; */
 }
 .learn-box{
+    position: relative;
     height: 80px;
-    margin-top: 15%;
-    margin-left: 10%;
+    width: 40%;
+
+    /* margin-top: 15%;
+    margin-left: 10%; */
     font-family: helvetica;
     color: #354463;
 }
 
 .share-box{
+    position: relative;
     height: 80px;
+    width: 40%;
+    /* top: 5%; */
+    /* padding-top: 5%; */
+    /* top: 10%; */
     /* margin-top: 15%; */
-    margin-left: 10%;
+    /* margin-left: 10%; */
     font-family: helvetica;
     color: #354463;
 }
+/* .share-box h3 p{
+    position: relative;
+    top: 5%;
+} */
 
 .volunteer-box{
+    position: relative;
     height: 80px;
-    margin-top: 15%;
-    margin-right: 10%;
+    width: 40%;
+    /* margin-top: 15%;
+    margin-right: 10%; */
     font-family: helvetica;
     color: #354463;
 }
 .donate-box{
+    position: relative;
     height: 80px;
+    width: 40%;
+    
+    /* padding-top: 5%; */
     /* margin-top: 15%; */
-    margin-right: 15%;
+    /* margin-right: 15%; */
     font-family: helvetica;
     color: #354463;
 }
+
+/* .donate-box h3 p{
+    position: relative;
+   top: 5%;
+} */
 
 .after-take-action-to-before-social-handle{
     width: 100%;
@@ -271,10 +333,57 @@
     position: relative;
     height: 176px;
     width: 62%;
-    background-color: red;
+    /* background-color: red; */
+    background-image: url(../images/home/tree-planting.png);
+    /* background-position-x: 50%;
+    background-position-y: 50%; */
+    background-size: cover;
     top: -33px;
     left: 21%;
 }
+
+.tree-planting-info-head{
+    position: relative;
+    height: 20px;
+    width: 80%;
+    left: 20%;
+    top: -5%;
+    color: #354463;
+    font-family: Helvetica;
+    font-weight: bold;
+}
+
+.tree-planting-info-para{
+    position: relative;
+    height: 98px;
+    width: 80%;
+    left: 11%;
+    top: -3%;
+    font-family:Helvetica;
+    color: #354463;
+    font-weight: lighter;
+    text-align: center;
+}
+
+.tree-planting-button{
+        position: relative;
+        background-color: #C1F7D5;
+        border: none;
+        color: #354463;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        height: 50px;
+       width: 160px;
+        /* margin: 29px 10px; */
+        border-radius: 50px;
+        left: 25%;
+        /* top:120px;
+        left: 30%; */
+    
+}
+
 
 .education-and-training{
     position: relative;
@@ -288,9 +397,54 @@
     position: relative;
     height: 176px;
     width: 62%;
-    background-color: red;
+    /* background-color: red; */
+    background-image: url(../images/home/education-training.png);
+    background-size: cover;
     top: -33px;
     left: 21%;
+}
+
+.education-and-training-head{
+    position: relative;
+    height: 20px;
+    width: 80%;
+    left: 20%;
+    top: -5%;
+    color: #354463;
+    font-family: Helvetica;
+    font-weight: bold;
+
+}
+
+.education-and-training-para{
+    position: relative;
+    height: 98px;
+    width: 80%;
+    left: 11%;
+    top: -3%;
+    font-family:Helvetica;
+    color: #354463;
+    font-weight: lighter;
+    text-align: center;
+}
+
+.education-and-training-button{
+        position: relative;
+        background-color: #C1F7D5;
+        border: none;
+        color: #354463;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        height: 50px;
+       width: 160px;
+        /* margin: 29px 10px; */
+        border-radius: 50px;
+        left: 25%;
+        /* top:120px;
+        left: 30%; */
+    
 }
 
 .advocacy-and-compaigning{
@@ -306,33 +460,101 @@
     position: relative;
     height: 176px;
     width: 62%;
-    background-color: red;
+    /* background-color: red; */
+    background-image: url(../images/home/advocacy.png);
+    background-size: cover;
     top: -33px;
     left: 21%;
 }
 
+.advocacy-and-compaigning-head{
+    position: relative;
+    height: 20px;
+    width: 80%;
+    left: 20%;
+    top: -5%;
+    color: #354463;
+    font-family: Helvetica;
+    font-weight: bold;
+
+}
+
+.advocacy-and-compaigning-para{
+    position: relative;
+    height: 98px;
+    width: 80%;
+    left: 11%;
+    top: -3%;
+    font-family:Helvetica;
+    color: #354463;
+    font-weight: lighter;
+    text-align: center;
+}
+
+.advocacy-and-compaigning-button{
+        position: relative;
+        background-color: #C1F7D5;
+        border: none;
+        color: #354463;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        height: 50px;
+       width: 160px;
+        /* margin: 29px 10px; */
+        border-radius: 50px;
+        left: 25%;
+        /* top:120px;
+        left: 30%; */
+    
+}
+
 .did-you-know-main-section{
     position: relative;
-    height: 1025px;
+    height: 1080px;
     width: 100%;
     /* background-image: url(../images/home/did-you-know-background-mobile.png); */
     /* position: absolute;
     object-fit: cover;
     object-position:70%;
     image-orientation: from-image; */
-    background-color: red;
-
+    /* background-color: red; */
+    background-image: url(../images/home/did-you-know-background-mobile-2.png);
+    background-position-x: 18%;
+    background-position-y: 40%;
+    /* background-size: cover; */
 }
 
 .did-you-know-flood-text{
     position: relative;
     top: 64px;
     font-family: FloodFont;
+    color: white;
     line-height: 50px;
     font-size: 25px; 
     height: 192px;
     width: 80%;
     left: 10%;
+}
+
+.three-out-of-4{
+    position: relative;
+    height: 24px;
+    width:30%;
+    top: -15%;
+    left: 5%;
+    color: #354463;
+    font-weight: bold;
+}
+.three-out-of-4-para{
+    position: relative;
+    height: 36px;
+    width: 70%;
+    top: -15%;
+    left: 5%;
+    color: #354463;
+    font-weight: lighter;
 }
 
 .take-action-today-button{
@@ -395,6 +617,25 @@
     background-color: white;
 }
 
+.one-million-box{
+    position: relative;
+    height: 24px;
+    width:40%;
+    top: 10%;
+    left: 10%;
+    color: #354463;
+    font-weight: bold;
+}
+.one-million-box-para{
+    position: relative;
+    height: 36px;
+    width: 70%;
+    top: 10%;
+    left: 10%;
+    color: #354463;
+    font-weight: lighter;
+}
+
 .social-media-box-three{
     position: relative;
     height: 136px;
@@ -403,6 +644,25 @@
     left: 15%;
     background-color: white;
     
+}
+
+.thirty-percent{
+    position: relative;
+    height: 24px;
+    width:40%;
+    top: 10%;
+    left: 10%;
+    color: #354463;
+    font-weight: bold;
+}
+.thirty-percent-para{
+    position: relative;
+    height: 36px;
+    width: 70%;
+    top: 10%;
+    left: 10%;
+    color: #354463;
+    font-weight: lighter;
 }
 
 .social-media-box-four{
@@ -414,18 +674,50 @@
     background-color: white;
 }
 
+.two-million-box{
+    position: relative;
+    height: 24px;
+    width:40%;
+    top: 10%;
+    left: 10%;
+    color: #354463;
+    font-weight: bold;
+}
+
+.two-million-box-para{
+    position: relative;
+    height: 36px;
+    width: 70%;
+    top: 10%;
+    left: 10%;
+    color: #354463;
+    font-weight: lighter;
+}
+
+/* .social-media-box-three{
+    position: relative;
+    height: 136px;
+    width: 70%;
+    top: 192px;
+    left: 15%;
+    background-color: white;
+    
+} */
+
 .stories-main-section{
     position: relative;
     height: 840px;
     width: 100%;
-    background-color: green;
+    background-color:white;
 }
 
 .story-one{
     position: relative;
     height: 312px;
     width: 80%;
-    background-color: white;
+    /* background-color: white; */
+    background-image: url(../images/home/lady-baby.png);
+    background-size: cover;
     top: 56px;
     left: 10%;
 }
@@ -446,8 +738,21 @@
     position: relative;
     height: 296px;
     width: 80%;
-    background-color: white;
+    background-color:#354463;
     top: 88px;
+    left: 10%;
+}
+
+.story-two h3{
+    position: relative;
+    color: white;
+    font-family:Helvetica;
+    font-weight: bold;
+    font-size: 150%;
+    height: 205px;
+    width: 80%;
+    text-align: center;
+    top: 10%;
     left: 10%;
 }
 
@@ -513,12 +818,18 @@
     left: 10%;
 }
 
+.news-section-1{
+    position: relative;
+    height: 640px;
+    top: 0%;
+}
 .white-event-main-box{
     position: relative;
     top: 142px;
     height: 312px;
     width: 80%;
-    background-color: aquamarine;
+    background-image: url(../images/home/tree-planting.png);
+    background-size: cover;
     left: 10%;
 }
 
@@ -568,7 +879,7 @@
     display: inline-block;
     font-size: 16px;
     height: 50px;
-   width: 40%;
+    width: 40%;
     /* margin: 29px 10px; */
     border-radius: 50px;
     top:205px;
@@ -580,7 +891,9 @@
     top: 305px;
     height: 312px;
     width: 80%;
-    background-color: aquamarine;
+    /* background-color: aquamarine; */
+    background-image: url(../images/home/tree-planting.png);
+    background-size: cover;
     left: 10%;
 }
 .white-news-box{
@@ -596,13 +909,17 @@
 }
 
 .news-section-2{
+    height: 640px;
     position: relative;
-    top:155px;
+    /* top:155px; */
+    
+    top: -3%;
 }
 
 .news-heading-2{
     position: relative;
-    top: 167px;
+    top: 320px;
+    /* bottom: 0%; */
     text-align: center;
     left: 10%;
     font-family: helvetica;
@@ -616,7 +933,7 @@
     position: relative;
     height: 128px;
     width: 80%;
-    top: 187px;
+    top: 340px;
     left: 10%;
     text-align: center;
     font-family: helvetica;
@@ -637,7 +954,7 @@
    width: 40%;
     /* margin: 29px 10px; */
     border-radius: 50px;
-    top:205px;
+    top:370px;
     left: 30%;
 }
 
@@ -707,8 +1024,810 @@
 
 
 /* -------------------  For Tab View   --------------------*/
-@media only screen and (min-width:450px) and (max-width:960px)
+@media only screen and (min-width:520px) and (max-width:850px)
 {
+    .head-container{
+        height: 128px;
+        width: 100%;
+        /* display: flex;
+        flex-direction: column; */
+        position: relative;
+        /* display: flex;
+        flex-wrap: wrap; */
+    }
 
+    .heading-text{
+        position: relative;
+        order: 1;
+        width: 50%;
+    }
+    .heading-paragraph{
+        position: relative;
+        order: 3;
+        width: 100%;
+        display: flex;
+        justify-content: flex-start;
+        left: 3%;
+        /* display: flex; */
+        /* width: 30%;
+        top: 20%; */
+        
+        /* justify-content: space-between; */
+    }
+    .heading-paragraph p{
+        position: relative;
+        padding-left:15px; 
+        /* left: 15%; */
+    }
+
+    .first-image-section{
+        /* width: 1; */
+           /* height: 720px; */
+           width: 100%;
+           background-color: white;
+          
+    }
+    .main-heading{
+        order: 2;
+        width: 50%;
+        /* top: 0%; */
+        /* right: 0%; */
+        /* left: 10%; */
+    }
+
+    .heading-paragraph{
+        
+    }
+
+    .donate-now{
+        width: 160px;
+        top: 40%;
+        left: 5%;
+    }
+
+    .big-issue-box{
+        position: relative;
+        height: 280px;
+        width: 80%;
+        background-color: white;
+        bottom: -12%;
+        left: 13%;
+        /* padding-bottom: 48px; */
+    }
+
+.the-issue-box{
+        position: relative;
+        height: 40px;
+        width: 156px;
+        background-color: #354463;
+        color: white;
+        /* text-align: center; */
+        left: -15%;
+        top: -9%;
+    
+    }    
+
+    .the-issue-heading{
+        position: relative;
+        height: 120px;
+        width: 80%;
+        font-family: helvetica;
+        font-weight: bold;
+        color: #354463;
+        
+        left: 5%;
+        bottom: 5%;
+        font-size: 180%;
+        /* text-align: center; */
+    }
+
+    .the-issue-underline-section{
+        position: relative;
+        height: 42px;
+        width: 67%;
+        text-align: center;
+        font-family: helvetica;
+        font-weight:lighter;
+        color: #354463;
+        font-size: 90%;
+        left: 7%;
+        top: 8%;
+        /* bottom: 8%; */
+    }
+
+    .take-action-main-section{
+        position: relative;
+        height: 336px;
+        width: 100%;
+        background-color: #C1F7D5;
+        /* top: 50%; */
+        
+    }
+
+    .take-action-box{
+        /* position: relative;
+        bottom: 5%;
+        left: 4%;
+        display: inline-grid; */
+        /* margin: 2%; */
+        /* grid-column-gap: 10%;
+        grid-row-gap: 10%;  */
+        /* display: flex;
+        flex-wrap: wrap;
+        justify-content:space-between; */
+        /* grid-template-columns: auto auto; */
+        /* height: 240px;
+        width: 100%; */
+    }
+    .take-action-box-heading{
+        position: relative;
+        height: 40px;
+        width: 160px;
+        background-color: #354463;
+        color: white;
+        text-align: center;
+        left: 40%;
+        top: -10%;
+        /* background-color: #354463;
+        height: 40px; */
+    }
+
+    
+
+    .after-take-action-to-before-social-handle{
+        width: 100%;
+        height: 1430px;
+        background-color: #354463;
+    }
+
+    .what-we-do{
+        position: relative;
+        height: 40px;
+        width: 160px;
+        background-color: white;
+        text-align: center;
+        top:43px;
+        left: 10%;
+        font-family: helvetica;
+        font-weight: lighter;
+        font-size: 85%;
+        color: #354463;
+    }
+    .what-we-do-discription{
+        position: relative;
+        width: 80%;
+        height: 140px;
+        /* text-align: center; */
+        text-align: start;
+        font-size:175%;
+        color: white;
+        font-family: helvetica;
+        font-weight: bold;
+        top: 40px;
+        left: 10%;
+    }
+
+    .tree-planting-initiatives{
+        position: relative;
+        height: 300px;
+        width: 80%;
+        background-color: white;
+        left: 10%;
+        top: 120px;
+    }
+
+    .tree-planting-initiatives-image{
+        position: relative;
+        height: 200px;
+        width: 35%;
+        background-color: red;
+        top: -33px;
+        left: 8%;
+    }
+
+    .tree-planting-info-head{
+        height: 52px;
+        width: 22%;
+        font-size: 115%;
+        top: -62%;
+        left: 50%;
+    }
+
+    .tree-planting-info-para{
+        height: 114px;
+        width: 40%;
+        top: -62%;
+        text-align: start;
+        left: 50%;
+        font-size: 110%;
+    }
+
+    .tree-planting-button{
+        width: 160px;
+        top: -70%;
+        left: 12%;
+    }
+
+    .education-and-training{
+        position: relative;
+        height: 300px;
+        width: 80%;
+        background-color: white;
+        left: 10%;
+        top: 190px;
+    }
+    .education-and-training-image{
+        position: relative;
+        height: 200px;
+        width: 35%;
+        background-color: red;
+        top: -33px;
+        left: 8%;
+    }
+
+    .education-and-training-head{
+        height: 52px;
+        width: 22%;
+        font-size: 115%;
+        top: -62%;
+        left: 50%;
+    }
+
+    .education-and-training-para{
+        height: 114px;
+        width: 40%;
+        top: -62%;
+        text-align: start;
+        left: 50%;
+        font-size: 110%;
+    }
+
+    .education-and-training-button{
+        width: 160px;
+        top: -70%;
+        left: 12%;
+    }
+
+    .advocacy-and-compaigning{
+        position: relative;
+        height: 300px;
+        width: 80%;
+        background-color: white;
+        left: 10%;
+        top: 260px;
+    }
+    
+    .advocacy-and-compaigning-image{
+        position: relative;
+        height: 200px;
+        width: 35%;
+        background-color: red;
+        top: -33px;
+        left: 8%;
+    }
+
+    .advocacy-and-compaigning-head{
+        height: 52px;
+        width: 25%;
+        font-size: 115%;
+        top: -62%;
+        left: 50%;
+    }
+
+    .advocacy-and-compaigning-para{
+        height: 114px;
+        width: 40%;
+        top: -62%;
+        text-align: start;
+        left: 50%;
+        font-size: 110%;
+    }
+
+    .advocacy-and-compaigning-button{
+        width: 160px;
+        top: -70%;
+        left: 12%;
+    }
+
+
+    .did-you-know-main-section{
+        position: relative;
+        height: 830px;
+        width: 100%;
+        /* background-image: url(../images/home/did-you-know-background-mobile.png); */
+        /* position: absolute;
+        object-fit: cover;
+        object-position:70%;
+        image-orientation: from-image; */
+        background-color: red;
+    
+    }
+
+    .did-you-know-flood-text{
+        /* position: relative;
+        top: 64px;
+        font-family: FloodFont;
+        line-height: 50px; */
+        font-size: 25px; 
+        height: 230px;
+        /*width: 80%;
+        left: 10%; */
+    }
+
+    .did-you-know-social-media-box{
+        position: relative;
+        height: 710px;
+        width: 65%;
+        right: -35%;
+        top: -45%;
+
+    }
+
+    .did-you-know-black-box p{
+        position: relative;
+        height: 40px;
+        width: 160px;
+        background-color: #354463;
+        color: white;
+        text-align: center;
+        /* margin-left: 25%; */
+        left: 10%;
+        top: -13%;
+    }
+
+    
+
+    .besic-stuffs-and-news-quotes{
+        position: relative;
+        height: 1250px;
+        width: 100%;
+        /* top: -20px; */
+        background-color: #354463;
+    }
+
+    .social-media-box-one{
+        /* position: relative;
+        height: 136px;
+        width: 70%;
+        top: 176px;
+        left: 15%;
+        background-color: white; */
+        height: 152px;
+        top: 160px;
+    }
+
+    .social-media-box-two{
+        /* position: relative;
+        height: 136px;
+        width: 70%;
+        top: 176px;
+        left: 15%;
+        background-color: white; */
+        top: 185px;
+        height: 152px;
+    }
+
+    .social-media-box-three{
+        /* position: relative;
+        height: 136px;
+        width: 70%;
+        top: 176px;
+        left: 15%;
+        background-color: white; */
+        top: 210px;
+        height: 152px;
+    }
+
+    .social-media-box-four{
+        /* position: relative;
+        height: 136px;
+        width: 70%;
+        top: 176px;
+        left: 15%;
+        background-color: white; */
+        top: 235px;
+        height: 152px;
+    }
+
+    .stories-main-section{
+        position: relative;
+        height: 1000px;
+        width: 100%;
+        background-color: white;
+    }
+
+    .story-one{
+        height: 570px;
+        width: 75%;
+    }
+
+    .story-one-box p{
+        width: 160px;
+        left: 13%;
+    }
+
+    .story-two{
+        position: relative;
+        height: 290px;
+        width: 75%;
+        background-color: #354463;
+        top: 0%;
+        left: 18%;
+    }
+
+    .read-more-button{
+        position: relative;
+        width: 160px;
+        left: 18%;
+        top: 0%;
+        /* bottom: -50%; */
+    }
+
+    .besic-stuffs-and-news-quotes{
+        position: relative;
+        height: 1800px;
+        width: 100%;
+        /* top: -20px; */
+        background-color: #354463;
+    }
+
+    .float-quote{
+        position: relative;
+        height: 90px;
+        width: 80%;
+        /* font-size: 100%; */
+    }
+
+    .news-section-1{
+        height: 460px;
+        /* width:  */
+
+    }
+
+    .white-little-box{
+        position: relative;
+        height: 40px;
+        width: 160px;
+        background-color: white;
+        color: #354463;
+        text-align: center;
+        /* margin-left: 25%; */
+        left: 52%;
+        top: 0px;
+    }
+
+    .white-event-main-box{
+        height: 280px;
+        width: 35%;
+    }
+    .white-little-box{
+        left: 130%;
+        /* right: 5%; */
+    }
+
+    .news-heading{
+        height: 160px;
+        width:45%;
+        font-size: 115%;
+        top:-100px;
+        left: 53%;
+        text-align: start;
+    }
+
+    .news-discription{
+        height: 170px;
+        width: 35%;
+        top: -150px;
+        left: 53%;
+        text-align: start;
+    }
+
+    .news-read-more-button{
+        left: 53%;
+        top: -140px;
+        width: 160px;
+    }
+
+    .news-section-2{
+        height: 460px;
+        /* width:  */
+        top: -7%;
+
+    }
+
+    .white-news-box{
+        position: relative;
+        height: 40px;
+        width: 160px;
+        background-color: white;
+        color: #354463;
+        text-align: center;
+        /* margin-left: 25%; */
+        left: -5%;
+        top: 0px;
+    }
+
+    .white-latest-news-box{
+        height: 280px;
+        width: 35%;
+        left:53%;
+    }
+    .white-news-box{
+        left: -120%;
+        /* right: 5%; */
+        
+    }
+
+    .news-heading-2{
+        height: 160px;
+        width:45%;
+        font-size: 115%;
+        top:80px;
+        left:10%;
+        text-align: start;
+    }
+
+    .news-discription-2{
+        height: 170px;
+        width: 35%;
+        top: 0px;
+        left: 10%;
+        text-align: start;
+    }
+
+    .news-read-more-button-2{
+        left: 10%;
+        top: 20px;
+        width: 160px;
+    }
+
+    .subscribe-discription{
+        width: 55%;
+        font-size: 18px;
+        left: 7%;
+        top: 50px
+    }
+
+    .input-box{
+        top: 30px;
+    }
+    .subscribe-button{
+        top: 65px;
+    }
 }
 
+/*------------------------For Desktop--------------------*/
+
+@media only screen and (min-width:850px)
+{
+    .head-container{
+        height: 128px;
+
+    }
+
+    .heading-text{
+        width: 30%;
+        order: 1;
+    }
+
+    .heading-paragraph{
+        width: 40%;
+        order: 2;
+        display: flex;
+        left: -2%;
+        top: 8%;
+    }
+
+    .heading-paragraph p{
+        position: relative;
+        padding-left:30px; 
+        font-size: 80%;
+        /* left: 15%; */
+    }
+
+    .main-heading{
+        width: 30%;
+        order: 3;
+        left: 0%;
+        /* top: 40%; */
+    }
+
+    .first-image-section{
+        position: relative;
+        height: 675px;
+        /* top: -50%; */
+        /* transform: translateY(-20%) */
+
+    }
+
+    .the-issue-box{
+        /* transform: translateX(-60%) */
+        width: 160px;
+    }
+
+    .climate-change{
+        position: relative;
+        order: 2;
+        /* transform: translateX(55%); */
+        height: 220px;
+        width: 50%;
+        /* font-size: 130%; */
+        /* left: 0%; */
+        /* right: 0%; */
+        /* left: 50%; */
+        /* left: 0%; */
+    }
+
+    /* .climate-change h1{
+        font-size: 130%;
+    } */
+
+    .big-issue-box{
+        position: relative;
+        order: 1;
+        height: 350px;
+        width: 40%;
+        /* transform: translateY(-100%); */
+        /* transform:translateX(-20%); */
+        top: -25%;
+        left: 8%;
+
+        /* top: 30%; */
+    }
+
+    /* .first-image-flex{
+        display: flex;
+
+    } */
+
+    .take-action-main-section{
+        position: relative;
+        height: 250px;
+        width: 100%;
+        /* top: -30%; */
+    }
+    .take-action-box-heading{
+        width: 162px;
+        /* transform: translateY(-20%); */
+        left: 40%;
+
+    }
+
+    .take-action-box{
+        position: relative;
+        left: 0%;
+        display: flex;
+        flex-wrap: nowrap;
+
+        text-align: center;
+        /* top: -80%; */
+    }
+
+    .learn-box{
+        width: 25%;
+    }
+    .volunteer-box{
+        width: 25%;
+    }
+    .share-box{
+        width: 25%;
+    }
+    .donate-box{
+        width: 25%;
+    }
+
+    .after-take-action-to-before-social-handle{
+        height: 800px;
+    }
+
+    .what-we-do{
+        width: 162px;
+        left: 10%;
+    }
+    .what-we-do-discription{
+        font-size: 145%;
+        text-align: start;
+
+    }
+
+    .tree-planting-initiatives-image{
+        width: 90%;
+    }
+
+    .tree-planting-initiatives{
+        width: 22%;
+    }
+    .tree-planting-button{
+        width: 130px;
+        height: 30px;
+        font-size: 80%;
+        top: 3%;
+        left: 20%;
+    }
+
+    .tree-planting-info-head{
+        font-size: 100%;
+    }
+
+    .tree-planting-info-para{
+        font-size: 80%;
+        text-align: start;
+        top: 0%;
+        left: 20%;
+    }
+    
+    .education-and-training{
+        width:22%;
+        top: -37%;
+        left: 37%;
+    }
+
+    .education-and-training-button{
+        width: 130px;
+        height: 30px;
+        font-size: 80%;
+        top: 0%;
+        left: 20%;
+    }
+
+    .education-and-training-image{
+        width: 90%;
+    }
+
+    .education-and-training-head{
+        font-size: 100%;
+    }
+
+    .education-and-training-para{
+        font-size: 80%;
+        text-align: start;
+        top: 0%;
+        left: 20%;
+    }
+
+    .advocacy-and-compaigning{
+        width: 22%;
+        top: -88%;
+        left: 64%;
+    }
+
+    .advocacy-and-compaigning-button{
+        width: 130px;
+        height: 30px;
+        font-size: 80%;
+        top: 0%;
+        left: 20%;
+    }
+
+    .advocacy-and-compaigning-image{
+        width: 90%;
+    }
+
+    .advocacy-and-compaigning-head{
+        width: 100%;
+    }
+
+    .advocacy-and-compaigning-para{
+        font-size: 80%;
+        text-align: start;
+        top: 0%;
+        left: 20%;
+    }
+
+    .did-you-know-main-section{
+
+    }
+
+    .did-you-know-flood-text{
+
+    }
+
+    .did-you-know-social-media-box{
+        position: relative;
+        height: 1000px;
+        width: 50%;
+        top: -32%;
+        left: 50%;
+    }
+
+}
