@@ -174,12 +174,14 @@
     color: white;
     text-align: center;
     left: 25%;
-    top: -13%;
+    top: -7%;
     /* background-color: #354463;
     height: 40px; */
 }
 
 .take-action-main-section{
+    position: relative;
+    transform: translateY(-5%);
     height: 328px;
     width: 100%;
     background-color: #C1F7D5;
@@ -291,6 +293,8 @@
     width: 100%;
     height: 1740px;
     background-color: #354463;
+    position: relative;
+    transform: translateY(-2%);
 }
 
 .what-we-do{
@@ -514,6 +518,7 @@
     position: relative;
     height: 1080px;
     width: 100%;
+    transform: translateY(-6%);
     /* background-image: url(../images/home/did-you-know-background-mobile.png); */
     /* position: absolute;
     object-fit: cover;
@@ -963,6 +968,7 @@
     height: 216px;
     width: 100%;
     background-color: #C1F7D5;
+    transform: translateY(-10%);
 
 }
 
@@ -1017,9 +1023,50 @@
 }
 
 .footer-information{
+    position: relative;
     height: 600px;
     width: 100%;
+    /* display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr ; */
+
 }
+.footer-main-box{
+    position: relative;
+    height: 500px;
+    top: 5%;
+    width: 80%;
+    position: relative;
+    left: 10%;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr ;
+}
+
+.footer-flood-text{
+    /* justify-content: end; */
+    /* grid-column: 1/span 2; */
+    position: relative;
+    /* left: 10%; */
+    /* grid-row-end: span 2; */
+    font-family: FloodFont;
+    line-height: 45px;
+    font-size: 25px; 
+
+    /* left: 50%; */
+    /* height: 136px; */
+}
+.empty-box{
+    display: none;
+}
+.follow-us a{
+    /* text-decoration: none; */
+    color: black;
+}
+.footer-learn-more a{
+    color: black;
+}
+
 
 
 
@@ -1455,11 +1502,17 @@
         left: 18%;
     }
 
+    .story-three{
+        position: relative;
+        top: -9%;
+        left: -11%;
+    }
+
     .read-more-button{
         position: relative;
         width: 160px;
-        left: 18%;
-        top: 0%;
+        /* left: 18%;
+        top: 0%; */
         /* bottom: -50%; */
     }
 
@@ -1593,6 +1646,41 @@
     }
     .subscribe-button{
         top: 65px;
+    }
+
+    .footer-main-box{
+        position: relative;
+        height: 400px;
+        top: 5%;
+        width: 80%;
+        position: relative;
+        left: 10%;
+        display: grid;
+        grid-template-rows: 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .empty-box{
+        /* display: ; */
+    }
+
+    /* .footer-learn-more{
+        grid-column: 1/span 2;
+    } */
+
+    .footer-flood-text{
+        /* justify-content: end; */
+        /* grid-column: span 2; */
+        /* -ms-grid-column-span: s */
+        /* grid-column: span 2; */
+        position: relative;
+        /* left: 10%; */
+        top: -5%;
+        /* grid-row-end: span 2; */
+        font-family: FloodFont;
+        line-height: 45px;
+        font-size: 25px; 
+        /* height: 136px; */
     }
 }
 
@@ -1815,7 +1903,7 @@
     }
 
     .did-you-know-main-section{
-
+        height: 900px;
     }
 
     .did-you-know-flood-text{
@@ -1829,5 +1917,180 @@
         top: -32%;
         left: 50%;
     }
+
+    .stories-main-section{
+        height: 600px;
+        width: 100%;
+    }
+    .story-one{
+        height: 450px;
+        width: 50%;
+        left: 43%;
+    }
+
+    .story-one-box{
+        /* width: 160px; */
+        /* left: 20%; */
+    }
+
+    .story-two{
+        height: 280px;
+        width: 40%;
+        top: -40%;
+        left: 10%;
+    }
+
+    .story-three{
+        position: relative;
+        top: -49%;
+        left: -20%;
+    }
+
+    .read-more-button{
+        position: relative;
+        width: 140px;
+        height: 30px;
+        /* top: -20%; */
+        font-size: 80%;
+    }
+
+    .news-section-1{
+        height: 570px;
+        /* width:  */
+        top: -6%;
+
+    }
+
+    .besic-stuffs-and-news-quotes{
+        height: 1300px;
+    }
+
+    .white-event-main-box{
+        height: 400px;
+        width: 40%;
+    }
+    .white-little-box{
+        left: 115%;
+        /* right: 5%; */
+        width: 150px;
+        height: 30px;
+        top: 0%;
+    }
+
+    .news-heading{
+        height: 160px;
+        width:35%;
+        font-size: 115%;
+        top:-40%;
+        left: 55%;
+        text-align: start;
+    }
+
+    .news-discription{
+        font-size: 100%;
+        height: 170px;
+        width: 35%;
+        top: -49%;
+        left: 55%;
+        text-align: start;
+    }
+
+    .news-read-more-button{
+        left: 55%;
+        top: -280px;
+        width: 130px;
+        height: 30px;
+    }
+
+    .news-section-2{
+        height: 570px;
+        /* width:  */
+        top: -20%;
+
+    }
+
+    .white-news-box{
+        position: relative;
+        height: 30px;
+        width: 150px;
+        background-color: white;
+        color: #354463;
+        text-align: center;
+        /* margin-left: 25%; */
+        left: -5%;
+        top: 0px;
+    }
+
+    .white-latest-news-box{
+        height: 400px;
+        width: 40%;
+        left:53%;
+    }
+    .white-news-box{
+        left: -105%;
+        /* right: 5%; */
+        
+    }
+
+    .news-heading-2{
+        height: 160px;
+        width:45%;
+        font-size: 115%;
+        top:-10%;
+        left:10%;
+        text-align: start;
+    }
+
+    .news-discription-2{
+        height: 170px;
+        width: 35%;
+        top: -23%;
+        left: 10%;
+        text-align: start;
+    }
+
+    .news-read-more-button-2{
+        height: 30px;
+        width: 140px;
+        left: 10%;
+        top: -130px;
+        /* width: 160px; */
+    }
+
+    .subscribe-discription{
+        width: 30%;
+        font-size: 18px;
+        left: 7%;
+        top: 50px
+    }
+
+    .input-box{
+        position: relative;
+        width: 30%;
+        top: -50px;
+        left: 40%;
+    }
+    .subscribe-button{
+        width: 20%;
+        left: 75%;
+        top: 0%;
+    }
+
+    .footer-main-box{
+        position: relative;
+        height: 300px;
+        top: 5%;
+        width: 80%;
+        position: relative;
+        left: 10%;
+        display:flex;
+        justify-content: space-between;
+        /* grid-template-rows: 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr; */
+    }
+
+    /* .footer-main-box{
+        height: 200px;
+    } */
 
 }
