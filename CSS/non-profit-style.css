@@ -1426,7 +1426,7 @@
 
     .besic-stuffs-and-news-quotes{
         position: relative;
-        height: 1250px;
+        /* height: 1250px; */
         width: 100%;
         /* top: -20px; */
         background-color: #354463;
@@ -1634,6 +1634,11 @@
         width: 160px;
     }
 
+    .subscription-main-box{
+        position: relative;
+        transform: translateY(-280%);
+    }
+
     .subscribe-discription{
         width: 55%;
         font-size: 18px;
@@ -1646,6 +1651,13 @@
     }
     .subscribe-button{
         top: 65px;
+    }
+
+    .footer-information{
+        position: relative;
+        background-color: white;
+        height: 400px;
+        transform: translateY(-152%);
     }
 
     .footer-main-box{
@@ -1724,7 +1736,7 @@
         position: relative;
         height: 675px;
         /* top: -50%; */
-        /* transform: translateY(-20%) */
+        transform: translateY(-18%);
 
     }
 
@@ -1735,10 +1747,11 @@
 
     .climate-change{
         position: relative;
-        order: 2;
-        /* transform: translateX(55%); */
+        /*order: 2;*/
+        transform: translateX(160%);
         height: 220px;
-        width: 50%;
+        width: 35%;
+		top:9%;
         /* font-size: 130%; */
         /* left: 0%; */
         /* right: 0%; */
@@ -1746,9 +1759,9 @@
         /* left: 0%; */
     }
 
-    /* .climate-change h1{
-        font-size: 130%;
-    } */
+    .climate-change h1{
+        font-size: 250%;
+    }
 
     .big-issue-box{
         position: relative;
@@ -1773,6 +1786,7 @@
         height: 250px;
         width: 100%;
         /* top: -30%; */
+        transform: translateY(-100%);
     }
     .take-action-box-heading{
         width: 162px;
@@ -1805,7 +1819,9 @@
     }
 
     .after-take-action-to-before-social-handle{
+        position: relative;
         height: 800px;
+        transform: translateY(-33%);
     }
 
     .what-we-do{
@@ -1903,7 +1919,9 @@
     }
 
     .did-you-know-main-section{
+        position: relative;
         height: 900px;
+        transform: translateY(-33%);
     }
 
     .did-you-know-flood-text{
@@ -1919,8 +1937,10 @@
     }
 
     .stories-main-section{
+        position: relative;
         height: 600px;
         width: 100%;
+        transform: translateY(-33%);
     }
     .story-one{
         height: 450px;
@@ -1962,7 +1982,9 @@
     }
 
     .besic-stuffs-and-news-quotes{
+        position: relative;
         height: 1300px;
+        transform: translateY(-12%);
     }
 
     .white-event-main-box{
@@ -2057,6 +2079,11 @@
         /* width: 160px; */
     }
 
+    .subscription-main-box{
+        position: relative;
+        transform: translateY(-82%);
+    }
+
     .subscribe-discription{
         width: 30%;
         font-size: 18px;
@@ -2074,6 +2101,12 @@
         width: 20%;
         left: 75%;
         top: 0%;
+    }
+
+    .footer-information{
+        position: relative;
+        height: 200px;
+        transform: translateY(-25%);
     }
 
     .footer-main-box{
