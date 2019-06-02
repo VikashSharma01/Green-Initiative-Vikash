@@ -1,0 +1,461 @@
+@font-face {
+    font-family: FloodFont;
+    src: url(../Font-Family/Flood.ttf);
+    font-weight: bold;
+}
+
+.donation-page-header{
+    position: relative;
+    height: 80px;
+    width: 100%;
+    background-color: white;
+    text-align: center;
+    /* top: 10%; */
+    transform: translateY(-10%);
+}
+
+.donation-page-header h3{
+    position: relative;
+    top: 23%;
+}
+
+.donation-input-box{
+    position: relative;
+    height: 1000px;
+    background-color: green;  /* Here Add backgroung image*/
+    background-size: cover;
+    transform: translateY(-3%);
+    background-image: url(../images/donation/annie-spratt-427340-unsplash.png)
+    
+}
+
+.donate-quote{
+    position: relative;
+    font-family: FloodFont;
+    line-height: 45px;
+    font-size: 25px;
+    top: 2%;
+    left: 15%;
+    width: 80%;
+    height: 80px;
+}
+
+.your-information-and-payment-information{
+    position: relative;
+    height: 820px;
+    width: 80%;
+    background-color: #354463;
+    font-family: Helvetica;
+    font-weight: 200%;
+    top: 5%;
+    left: 10%;
+
+}
+
+.your-info{
+    position: relative;
+    left: 6%;
+    color: white;
+    /* top: 0%; */
+}
+.your-information-and-payment-information p{
+    color: white;
+    font-size: 80%;
+}
+
+
+/*    Only - Form     */
+  .first-name{
+      position: relative;
+      height: 50px;
+      width: 40%;
+      /* top: 0%; */
+      left: 5%;
+  }
+
+  .first-name p{
+      position: relative;
+      /* top: 10%; */
+      /* margin-top: 10%; */
+      font-size: 90%;
+  }
+
+  .label-fname{
+      position: relative;
+      font-size: 85%;
+      top: -53%;
+    opacity: 0.5;
+
+  }
+
+  .last-name p{
+    position: relative;
+    /* top: 10%; */
+    /* margin-top: 10%; */
+    font-size: 90%;
+}
+
+.label-lname{
+    position: relative;
+    font-size: 85%;
+    top: -53%;
+  opacity: 0.5;
+}
+.last-name{
+    position: relative;
+    height: 50px;
+    width: 40%;
+    top: -8%;
+    left :54%;
+}
+
+.address{
+    position: relative;
+    height: 50px;
+    width: 40%;
+    top: -8%;
+    left: 5%;
+}
+
+.label-city{
+    position: relative;
+    font-size: 85%;
+    top: -53%;
+  opacity: 0.5;
+}
+
+.city{
+    position: relative;
+    height: 50px;
+    width: 40%;
+    top: -8%;
+    left: 5%;
+}
+
+
+
+.label-address{
+    position: relative;
+    font-size: 85%;
+    top: -53%;
+    /* left: -50%; */
+  opacity: 0.5;
+}
+
+
+
+.state{
+    position: relative;
+    background-color: transparent;
+    border: 0%;
+    height: 50px;
+    width: 20%;
+    top: -16%;
+    left: 48%;
+}
+
+.label-zip{
+    position: relative;
+    font-size: 85%;
+    top: -53%;
+  opacity: 0.5;
+}
+
+.zip{
+    position: relative;
+    height: 50px;
+    width: 20%;
+    top: -24%;
+    left: 75%;
+}
+
+.label-email{
+    position: relative;
+    /* width: 80%; */
+    font-size: 85%;
+    top: -54%;
+    /* left: -50%; */
+  opacity: 0.5;
+}
+
+.email{
+    position: relative;
+    height: 50px;
+    width: 40%;
+    top: -24%;
+    left: 5%;
+}
+
+label, input{
+    /* transition: all 0.5s;
+    touch-action: manipulation; */
+    transition: all 0.5s;
+    /* width: 10.1%; */
+    /* transform: scaleX(1); */
+    transform: translateY(-50%)
+  }
+
+  .size{
+      background-color: transparent;
+      border: 0;
+      border-bottom: 1px solid #ccc;
+  }
+
+  input{
+      background-color: transparent;
+      border: 0;
+      border-bottom: 1px solid #C1F7D5;
+      /* cursor: text; */
+  }
+
+  input:focus {
+    outline: 5;
+    border-bottom: 1px solid #666;
+    /* transition: all 0.6s;
+    transform: translate3d(0,-50%,20%) */
+  }
+
+.payment-head
+{
+    position: relative;
+    position: relative;
+    left: 5%;
+    top: -20%;
+    color: white;
+}
+
+.card-number{
+    position: relative;
+    height: 50px;
+    width: 40%;
+    top: -20%;
+    left: 5%;
+}
+
+.label-card{
+    position: relative;
+    font-size: 85%;
+    top: -53%;
+  opacity: 0.5;
+
+}
+
+.expiry-date{
+    position: relative;
+    top: -20%;
+    left: 5%;
+}
+
+.size-1{
+    background-color: transparent;
+    border: 0;
+    border-bottom: 1px solid #ccc;
+}
+
+.size-2{
+    position: relative;
+    left: 8%;
+    background-color: transparent;
+    border: 0;
+    border-bottom: 1px solid #ccc;
+}
+
+.security-code{
+    position: relative;
+    height: 50px;
+    width: 40%;
+    top: -39%;
+    left: 53%;
+}
+
+.label-sec{
+    position: relative;
+    font-size: 85%;
+    top: -53%;
+  opacity: 0.5;
+
+}
+
+.donate-discription{
+    position: relative;
+    top: -15%;
+    width: 80%;
+    left: 7%;
+    color: white;
+
+}
+.process-payment{
+    /* height: 18px;
+    margin-left: 18px;
+    color: #354463; */
+    /* background-color: #354463; */
+    position: relative;
+  background-color: #C1F7D5;
+  border: none;
+  color: #354463;
+  /* padding: 20px; */
+  width: 250px;
+  height: 49px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  /* margin: 29px 10px; */
+  border-radius: 50px;
+  top: -18%;
+  left: 13%;
+  /* padding: 10px 24px; */
+}
+
+
+
+.go-back{
+    /* background-color: #C1F7D5; */
+    position: relative;
+    top: -17%;
+    left: 13%;
+}
+
+.go-back a{
+    color: #C1F7D5;
+}
+
+
+
+
+/*       end-form*/
+
+
+
+.footer-information{
+    position: relative;
+    height: 600px;
+    width: 100%;
+   
+
+}
+.footer-main-box{
+    position: relative;
+    height: 500px;
+    top: 5%;
+    width: 80%;
+    position: relative;
+    left: 10%;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr ;
+}
+
+.footer-flood-text{
+
+    position: relative;
+    font-family: FloodFont;
+    line-height: 45px;
+    font-size: 25px; 
+    grid-row: 3;
+    grid-column: 2;
+}
+
+.follow-us a{
+    /* text-decoration: none; */
+    color: black;
+}
+.footer-learn-more a{
+    color: black;
+}
+
+
+@media only screen and (min-width:450px) and (max-width: 850px){
+    .process-payment{
+        position: relative;
+        left: 40%;
+        
+    }
+
+    .go-back{
+        top: -25%;
+    }
+
+    .label-fname{
+        position: relative;
+       left: -60%;
+       
+    }
+
+    .label-lname{
+        position: relative;
+       left: -60%;
+       
+    }
+
+    .label-address{
+        position: relative;
+        left: -60%;
+    }
+    .label-city{
+        position: relative;
+        left: -60%;
+    }
+
+    .label-email{
+        position: relative;
+        left: -60%;
+    }
+
+    .label-card{
+        position: relative;
+        left: -60%;
+    }
+
+    .label-sec{
+        position: relative;
+        left: -60%;
+    }
+
+    .footer-main-box{
+        display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .footer-flood-text{
+        grid-row: 2;
+        grid-column: 3;
+    }
+
+    .footer-learn-more{
+        grid-row: 2;
+        grid-column: 2;
+    }
+}
+
+
+@media only screen and (min-width:850px){
+    .footer-main-box{
+        display: flex;
+        justify-content: space-between;
+    /* grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr; */
+    }
+
+    .your-information-and-payment-information{
+        position: relative;
+        height: 800px;
+        width: 40%;
+        top: -25%;
+    }
+
+    .donate-quote{
+        position: relative;
+        height: 350px;
+        width: 300px;
+        font-size: 200%;
+        left: 56%;
+        top: 10%;
+    }
+
+}
+
+
+
+
