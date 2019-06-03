@@ -40,257 +40,219 @@
     height: 80px;
 }
 
-.your-information-and-payment-information{
+.form-sec{
     position: relative;
-    height: 820px;
-    width: 80%;
-    background-color: #354463;
+    height:830px;
+    width: 90%;
+    top:4%;
+    left: 5%;
     font-family: Helvetica;
-    font-weight: 200%;
-    top: 5%;
-    left: 10%;
+    background-color: #354463;
+    font-weight: bold;
+  }
 
-}
-
-.your-info{
-    position: relative;
-    left: 6%;
+  .form-sec p{
     color: white;
-    /* top: 0%; */
-}
-.your-information-and-payment-information p{
-    color: white;
-    font-size: 80%;
-}
-
-
-/*    Only - Form     */
-  .first-name{
-      position: relative;
-      height: 50px;
-      width: 40%;
-      /* top: 0%; */
-      left: 5%;
+    font-weight: 50%;
   }
-
-  .first-name p{
-      position: relative;
-      /* top: 10%; */
-      /* margin-top: 10%; */
-      font-size: 90%;
+  
+  .your-info{
+    position:relative;
+    left:8%;
+    top:3%;
   }
-
-  .label-fname{
-      position: relative;
-      font-size: 85%;
-      top: -53%;
-    opacity: 0.5;
-
+  
+  .payment-info{
+    position:relative;
+    top:50px;
   }
-
-  .last-name p{
-    position: relative;
-    /* top: 10%; */
-    /* margin-top: 10%; */
-    font-size: 90%;
-}
-
-.label-lname{
-    position: relative;
-    font-size: 85%;
-    top: -53%;
-  opacity: 0.5;
-}
-.last-name{
-    position: relative;
-    height: 50px;
-    width: 40%;
-    top: -8%;
-    left :54%;
-}
-
-.address{
-    position: relative;
-    height: 50px;
-    width: 40%;
-    top: -8%;
-    left: 5%;
-}
-
-.label-city{
-    position: relative;
-    font-size: 85%;
-    top: -53%;
-  opacity: 0.5;
-}
-
-.city{
-    position: relative;
-    height: 50px;
-    width: 40%;
-    top: -8%;
-    left: 5%;
-}
-
-
-
-.label-address{
-    position: relative;
-    font-size: 85%;
-    top: -53%;
-    /* left: -50%; */
-  opacity: 0.5;
-}
-
-
-
-.state{
-    position: relative;
-    background-color: transparent;
-    border: 0%;
-    height: 50px;
-    width: 20%;
-    top: -16%;
-    left: 48%;
-}
-
-.label-zip{
-    position: relative;
-    font-size: 85%;
-    top: -53%;
-  opacity: 0.5;
-}
-
-.zip{
-    position: relative;
-    height: 50px;
-    width: 20%;
-    top: -24%;
-    left: 75%;
-}
-
-.label-email{
-    position: relative;
-    /* width: 80%; */
-    font-size: 85%;
-    top: -54%;
-    /* left: -50%; */
-  opacity: 0.5;
-}
-
-.email{
-    position: relative;
-    height: 50px;
-    width: 40%;
-    top: -24%;
-    left: 5%;
-}
-
-label, input{
-    /* transition: all 0.5s;
-    touch-action: manipulation; */
-    transition: all 0.5s;
-    /* width: 10.1%; */
-    /* transform: scaleX(1); */
+  
+  .l-n
+  {
+    position:relative;
+    left:55%;
   }
-
-  .size{
-      background-color: transparent;
-      border: 0;
-      border-bottom: 1px solid #ccc;
+  .f-n{
+    position:relative;
+    left:8%;
+    top:4%;
   }
-
-  input{
-      background-color: transparent;
-      border: 0;
-      border-bottom: 1px solid #C1F7D5;
-      /* cursor: text; */
+  
+  .lname{
+    position:absolute;
+    width:35%;
+    top:20px;
+    left:-5px;
+    background-color:transparent;
+    border:0;
+    border-bottom: 1px solid #C1F7D5;
   }
-
-  input:focus ~ label{
-      position: relative;
-    outline: 5;
-    /* border-bottom: 1px solid #666; */
-    /* background-color: tomato; */
+  
+  .aname{
+    position:absolute;
+    width:80%;
+    top:20px;
+  /*   left:-10px; */
+    background-color:transparent;
+    border:0;
+    border-bottom: 1px solid #C1F7D5;
+  }
+  .a-n
+  {
+    position:relative;
+    left:8%;
+    top:35px;
+  }
+  
+  .cname{
+    position:absolute;
+    width:40%;
+    top:20px;
+  /*   left:-10px; */
+    background-color:transparent;
+    border:0;
+    border-bottom: 1px solid #C1F7D5;
+  }
+  .c-n
+  {
+    position:relative;
+    left:8%;
+    top:70px;
+  }
+  
+  .state-select{
+    position:relative;
+    top:20px;
+    left:50%;
+  }
+  
+  .sname{
+    position:relative;
+    background-color:transparent;
+    border:0;
+     border-bottom: 1px solid #C1F7D5;
+  }
+  
+  .zname{
+    position:absolute;
+    width:20%;
+    top:20px;
+  /*   left:-10px; */
+    background-color:transparent;
+    border:0;
+    border-bottom: 1px solid #C1F7D5;
+  }
+  .z-n
+  {
+    position:relative;
+    left:70%;
     top:-35px;
-    /* transition: all 0.6s;
-    transform: translate3d(0,-50%,20%) */
+  }
+  
+  .ename{
+    position:absolute;
+    width:80%;
+    top:20px;
+  /*   left:-10px; */
+    background-color:transparent;
+    border:0;
+    border-bottom: 1px solid #C1F7D5;
+  }
+  .e-n
+  {
+    position:relative;
+    left:8%;
+    top:5px;
+  }
+  
+  .expiry-select{
+    position:relative;
+    top:35px;
+    left:0%;
+  }
+  
+  .exname{
+    position:relative;
+    background-color:transparent;
+    border:0;
+     border-bottom: 1px solid #C1F7D5;
+  }
+  
+  .exname-1{
+    position:relative;
+    background-color:transparent;
+    border:0;
+     border-bottom: 1px solid #C1F7D5;
+  }
+  
+  .srname{
+    position:absolute;
+    width:40%;
+    top:20px;
+  /*   left:-10px; */
+    background-color:transparent;
+    border:0;
+    border-bottom: 1px solid #C1F7D5;
+  }
+  .sr-n
+  {
+    position:relative;
+    left:40%;
+    top:-25px;
+  }
+  
+  .fname{
+    position:absolute;
+    width:35%;
+    background-color:transparent;
+  /*  position:relative; */
+   top:20px;
+    border:0;
+    border-bottom: 1px solid #C1F7D5;
+  }
+  
+  .crname{
+    position:absolute;
+    width:80%;
+    top:20px;
+  /*   left:-10px; */
+    background-color:transparent;
+    border:0;
+    border-bottom: 1px solid #C1F7D5;
+  }
+  .cr-n
+  {
+    position:relative;
+    left:0%;
+    top:55px;
+  }
+  
+  input ~ span{
+   transition:top .9s ease;
+   position:absolute;
+   top:20px;
+  }
+  
+  input:focus ~ span{
+    border-box:1px solid white;
+   top:0px;
+  }
+  
+  input:focus {
+     border-bottom: 2px solid black;
   }
 
-.payment-head
-{
-    /* position: relative; */
-    position: relative;
-    left: 5%;
-    top: -20%;
-    color: white;
-}
-
-.card-number{
-    position: relative;
-    height: 50px;
-    width: 40%;
-    top: -20%;
-    left: 5%;
-}
-
-.label-card{
-    position: relative;
-    font-size: 85%;
-    top: -53%;
-  opacity: 0.5;
-
-}
-
-.expiry-date{
-    position: relative;
-    top: -20%;
-    left: 5%;
-}
-
-.size-1{
-    background-color: transparent;
-    border: 0;
-    border-bottom: 1px solid #ccc;
-}
-
-.size-2{
-    position: relative;
-    left: 8%;
-    background-color: transparent;
-    border: 0;
-    border-bottom: 1px solid #ccc;
-}
-
-.security-code{
-    position: relative;
-    height: 50px;
-    width: 40%;
-    top: -39%;
-    left: 53%;
-}
-
-.label-sec{
-    position: relative;
-    font-size: 85%;
-    top: -53%;
-  opacity: 0.5;
-
-}
 
 .donate-discription{
     position: relative;
-    top: -15%;
+    transform: translateY(70%);
     width: 80%;
-    left: 7%;
+    left: -40%;
     color: white;
 
 }
 .process-payment{
-    /* height: 18px;
-    margin-left: 18px;
-    color: #354463; */
-    /* background-color: #354463; */
+   
     position: relative;
   background-color: #C1F7D5;
   border: none;
@@ -304,30 +266,29 @@ label, input{
   font-size: 16px;
   /* margin: 29px 10px; */
   border-radius: 50px;
-  top: -18%;
-  left: 13%;
+  /* top: 50%; */
+  transform: translateY(100%);
+  left: -30%;
   /* padding: 10px 24px; */
 }
 
-
+span{
+  color:gray;
+  opacity: 0.5;
+}
 
 .go-back{
     /* background-color: #C1F7D5; */
     position: relative;
-    top: -17%;
-    left: 13%;
+    transform: translateY(250%);
+    left: -25%;
 }
 
 .go-back a{
     color: #C1F7D5;
 }
 
-
-
-
 /*       end-form*/
-
-
 
 .footer-information{
     position: relative;
@@ -366,54 +327,25 @@ label, input{
     color: black;
 }
 
-
 @media only screen and (min-width:450px) and (max-width: 850px){
     .process-payment{
+      width: 40%;
         position: relative;
-        left: 40%;
-        
+      left: initial;
     }
 
-    .go-back{
-        top: -25%;
-    }
+    .donate-discription{
 
-    .label-fname{
-        position: relative;
-       left: -60%;
-       
+        width: 80%;
+        top: 13px;
+        color: white;
+    
     }
-
-    .label-lname{
-        position: relative;
-       left: -60%;
-       
+    
+    .go-back a{
+        color: #C1F7D5;
     }
-
-    .label-address{
-        position: relative;
-        left: -60%;
-    }
-    .label-city{
-        position: relative;
-        left: -60%;
-    }
-
-    .label-email{
-        position: relative;
-        left: -60%;
-    }
-
-    .label-card{
-        position: relative;
-        left: -60%;
-    }
-
-    .label-sec{
-        position: relative;
-        left: -60%;
-    }
-
+    
     .footer-main-box{
         display: grid;
     grid-template-rows: 1fr 1fr;
@@ -431,16 +363,14 @@ label, input{
     }
 }
 
-
 @media only screen and (min-width:850px){
     .footer-main-box{
         display: flex;
         justify-content: space-between;
-    /* grid-template-rows: 1fr 1fr;
-    grid-template-columns: 1fr 1fr 1fr; */
+    
     }
 
-    .your-information-and-payment-information{
+    .form-sec{
         position: relative;
         height: 800px;
         width: 40%;
@@ -455,9 +385,4 @@ label, input{
         left: 56%;
         top: 10%;
     }
-
 }
-
-
-
-
