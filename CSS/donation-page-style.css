@@ -192,7 +192,6 @@ label, input{
     transition: all 0.5s;
     /* width: 10.1%; */
     /* transform: scaleX(1); */
-    transform: translateY(-50%)
   }
 
   .size{
@@ -208,16 +207,19 @@ label, input{
       /* cursor: text; */
   }
 
-  input:focus {
+  input:focus ~ label{
+      position: relative;
     outline: 5;
-    border-bottom: 1px solid #666;
+    /* border-bottom: 1px solid #666; */
+    /* background-color: tomato; */
+    top:-35px;
     /* transition: all 0.6s;
     transform: translate3d(0,-50%,20%) */
   }
 
 .payment-head
 {
-    position: relative;
+    /* position: relative; */
     position: relative;
     left: 5%;
     top: -20%;
